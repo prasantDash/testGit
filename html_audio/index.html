@@ -1,0 +1,67 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<title>HTML5 Audio</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		<style>
+			#audio1{
+				margin-top: 25px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					<h1>Video tag</h1>
+					<h3>Attributes</h3>
+					<ul>					
+						<li>
+							<h4>Control</h4>
+							<p>Without this attribute audio controller will not work.</p>
+						</li>
+						<li>
+							<h4>Autoplay</h4>
+							<p>It will start playing the audio once browser load.</p>
+						</li>
+						<li>
+							<h4>Loop</h4>
+							<p>It will repet the audio.</p>
+						</li>
+						<li>
+							<h4>Muted</h4>
+							<p>It will start the audio on muted status.</p>
+						</li>
+						<li>
+							<h4>Preload</h4>
+							<p>Take the responcibility for controlling the audio controls.</p>
+						</li>
+						<li>
+							<h4>Height</h4>
+							<p></p>
+						</li>
+						<li>
+							<h4>Width</h4>
+							<p></p>
+						</li>
+						
+					</ul>
+				</div>
+				<div class="col-sm-6">
+					<audio id="audio1" controls preload="none">
+						<source src="test.mp3" type="audio/mpeg">					
+					</audio>
+				</div>
+			</div>
+		</div>
+	
+		
+
+	
+
+	</body> 
+</html>
